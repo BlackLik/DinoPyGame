@@ -151,7 +151,7 @@ class player:
     def check_health(self, barriers):
         if self.health == 0 and self.check_collision(barriers):
             if not self.__make_jump:
-                if self.img_ticket % 5 == 0:
+                if self.img_ticket % 5 == 0 and self.img_ticket < 25:
                     self.img_ticket -= 1
                 self.display.blit(self.img_death[self.img_ticket // 5], (self.position_x, self.position_y))
                 self.clock.tick(FPS)
@@ -177,7 +177,7 @@ class player:
         if key[pygame.K_SPACE] and not self.__make_jump:
             self.__make_jump = True
         if self.__make_jump:
-            if self.__jump_counter == -18:
+            if self.__jump_counter == -12:
                 pygame.mixer.Sound.play(self.jump_sound)
             if self.__jump_counter >= -self.height_jump:
                 self.position_y -= self.__jump_counter

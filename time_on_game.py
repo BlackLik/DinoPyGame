@@ -7,7 +7,9 @@ class tbg:
     day = []
     for i in range(1, 16):
         path = "Backgrounds/land-sand" + str(i) + ".png"
-        day.append(pygame.image.load(path))
+        img = pygame.image.load(path)
+        img = pygame.transform.scale(img, (DISPLAY_WIDTH, DISPLAY_HEIGHT))
+        day.append(img)
 
     night = []
     for i in range(0, len(day)):
