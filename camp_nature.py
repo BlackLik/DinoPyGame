@@ -1,5 +1,4 @@
 import pygame
-from const import *
 import random
 from stone import stone
 from cloud import cloud

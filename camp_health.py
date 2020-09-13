@@ -1,5 +1,3 @@
-import pygame
-from const import *
 from health import HP
 
 
