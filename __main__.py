@@ -1,3 +1,4 @@
+# файл __main__.py
 from time_on_game import tbg
 from menu import *
 from camp_cactus import *

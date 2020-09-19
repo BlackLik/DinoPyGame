@@ -1,3 +1,4 @@
+# файл col.py
 # Цвета были взяты с сайта https://colorscheme.ru/html-colors.html
 # Красные цвета
 IndianRed = (205, 92, 92)

@@ -1,3 +1,4 @@
+# файл time_on_game.py
 import pygame
 from const import *
 

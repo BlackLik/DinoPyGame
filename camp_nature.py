@@ -1,3 +1,4 @@
+# файл camp_nature.py
 import pygame
 import random
 from stone import stone

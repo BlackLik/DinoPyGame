@@ -1,5 +1,5 @@
 ﻿# DinoPyGame
-# Сompilation
+# Compilation
 # Step 0
 pip intall pyinstaller
 ---

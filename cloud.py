@@ -1,4 +1,4 @@
-import pygame
+# файл cloud.py
 from const import *
 import random
 from objects import objectNature

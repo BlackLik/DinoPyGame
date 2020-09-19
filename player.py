@@ -1,3 +1,4 @@
+# файл player.py
 import pygame
 import random
 from functools import lru_cache

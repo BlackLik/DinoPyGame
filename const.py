@@ -1,3 +1,4 @@
+# файл const.py
 # ширина дисплея
 DISPLAY_WIDTH = 800
 

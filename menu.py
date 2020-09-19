@@ -1,3 +1,4 @@
+# файл menu.py
 import pygame
 from interface_on_game import print_text
 from col import *

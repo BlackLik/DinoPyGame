@@ -1,3 +1,4 @@
+# файл camp_cactus.py
 import pygame
 from cactus import cactus
 from const import *

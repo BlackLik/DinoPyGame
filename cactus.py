@@ -1,3 +1,4 @@
+# файл cactus.py
 from const import *
 import random
 from objects import objectNature

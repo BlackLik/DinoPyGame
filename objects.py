@@ -1,3 +1,4 @@
+# файл objects.py
 # класс для объектов
 class objectNature:
     def __init__(self, display, image, height, width, speed):

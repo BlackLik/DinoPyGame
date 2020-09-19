@@ -1,3 +1,4 @@
+# файл health.py
 import pygame
 import random
 from const import *

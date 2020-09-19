@@ -1,3 +1,4 @@
+# файл interface_on_game.py
 import pygame
 from const import *
 from player import player

@@ -1,3 +1,4 @@
+# файл camp_health.py
 from health import HP
 
 

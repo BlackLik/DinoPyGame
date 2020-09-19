@@ -1,4 +1,4 @@
-import pygame
+# файл objects.py
 from const import *
 import random
 from objects import objectNature
